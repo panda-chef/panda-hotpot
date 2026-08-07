@@ -35,10 +35,10 @@
 ## 相关资料
 
 - [materials/links.md](./materials/links.md) — 原始链接与规范文档
-- [code/](./code/) — 可运行的 MCP demo（制作中）
+- [code/](./code/) — 可运行的 MCP demo（✅ 已上架）
 
 ## 待补充（TODO）
 
 - [ ] 公众号文章正文
-- [ ] MCP demo 代码（30 分钟上手）
+- [x] MCP demo 代码（30 分钟上手）
 - [ ] 配置教程截图（云效/MySQL 实例）
