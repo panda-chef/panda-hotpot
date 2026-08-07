@@ -3,6 +3,7 @@
 > **菜品编号**：`2026-08-qwen38-agentic-index`
 > **热度**：🔥🔥🔥（HN 430+ points，2026-08-07）
 > **状态**：✅ 已发布（与公众号「硅基饲料」2026-08-07 文章同步）
+> 🔗 **公众号阅读**：https://mp.weixin.qq.com/s/UNTYOHi0AZTAeTYz60OVIQ
 
 ---
 
