@@ -10,6 +10,7 @@
 
 | 菜品 | 上架时间 | 状态 | 热度 |
 |------|---------|------|------|
+| [🍲 Cloudflare 下场造了个浏览器，但不是给你用的](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-08-Cloudflare-下场造了个浏览器，但不是给/README.md) | 2026-08-08 | ✅ 已发布 | 🔥 |
 | [🍲 会聊天不顶用了：Qwen3.8 Max 靠"会干活"登顶全球第一](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-qwen38-agentic-index/README.md) | 2026-08-07 | ✅ 已发布 | 🔥 |
 | [🔌 AI Agent 统一标准：MCP 是什么？](./dishes/2026-08-mcp-agent-standard/) | 2026-08 | 📝 制作中 | 🔥🔥 |
 
