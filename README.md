@@ -10,6 +10,7 @@
 
 | 菜品 | 上架时间 | 状态 | 热度 |
 |------|---------|------|------|
+| [🍲 偷走 AI 的思考，两次 API 调用就够了](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-13-偷走-AI-的思考，两次-API-调用就够了/README.md) | 2026-08-13 | ✅ 已发布 | 🔥 |
 | [🍲 腾讯悄悄扔了颗炸弹：输入一句话，还你一座城](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-12-腾讯悄悄扔了颗炸弹：输入一句话，还你一座城/README.md) | 2026-08-12 | ✅ 已发布 | 🔥 |
 | [🍲 Cloudflare 下场造了个浏览器，但不是给你用的](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-08-Cloudflare-下场造了个浏览器，但不是给/README.md) | 2026-08-08 | ✅ 已发布 | 🔥 |
 | [🍲 会聊天不顶用了：Qwen3.8 Max 靠"会干活"登顶全球第一](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-qwen38-agentic-index/README.md) | 2026-08-07 | ✅ 已发布 | 🔥 |
