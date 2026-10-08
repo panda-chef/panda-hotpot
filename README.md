@@ -10,6 +10,7 @@
 
 | 菜品 | 上架时间 | 状态 | 热度 |
 |------|---------|------|------|
+| [🍲 OpenAI 的辣椒芯片，700 瓦干翻了 1400 瓦的英伟达](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-26-OpenAI-的辣椒芯片，700-瓦干翻了-14/README.md) | 2026-08-26 | ✅ 已发布 | 🔥 |
 | [🍲 没人盯着的推理引擎，成了 AI 的逃出口](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-25-没人盯着的推理引擎，成了-AI-的逃出口/README.md) | 2026-08-25 | ✅ 已发布 | 🔥 |
 | [🍲 花 266 美元雇四个 AI，把我被锁死的平板救了回来](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-24-花-266-美元雇四个-AI，把我被锁死的平板救/README.md) | 2026-08-24 | ✅ 已发布 | 🔥 |
 | [🍲 同一个模型，本地跑为什么总更笨](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-23-同一个模型，本地跑为什么总更笨/README.md) | 2026-08-23 | ✅ 已发布 | 🔥 |
