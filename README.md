@@ -10,6 +10,7 @@
 
 | 菜品 | 上架时间 | 状态 | 热度 |
 |------|---------|------|------|
+| [🍲 Claude Code 今天更新了一个功能，终于解决了我的精神内耗](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-04-Claude-Code-今天更新了一个功能，终于/README.md) | 2026-08-04 | ✅ 已发布 | 🔥 |
 | [🍲 给 AI Agent 上把锁——你的 API Key 正在裸奔](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-03-给-AI-Agent-上把锁——你的-API-K/README.md) | 2026-08-03 | ✅ 已发布 | 🔥 |
 | [🍲 Stripe 花 70 亿美元买下 OpenRouter，AI 的「收费站」要换主人了](./dishes/2026-08-17-Stripe-收购-OpenRouter/README.md) | 2026-08-17 | ✅ 已发布 | 🔥 |
 | [🍲 一切皆插件！DeepSeek 憋的黑色鲸鱼，我装上试了](./dishes/2026-08-14-一切皆插件！DeepSeek-憋的黑色鲸鱼，我装/README.md) | 2026-08-14 | ✅ 已发布 | 🔥 |
