@@ -10,6 +10,7 @@
 
 | 菜品 | 上架时间 | 状态 | 热度 |
 |------|---------|------|------|
+| [🍲 我读不懂 AI 写的东西，造 Claude 的工程师说这不怪我](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-09-24-我读不懂-AI-写的东西，造-Claude-的工/README.md) | 2026-09-24 | ✅ 已发布 | 🔥 |
 | [🍲 OpenAI 和 Anthropic 同一天降价，我拿计算器重算了这周的活](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-09-23-OpenAI-和-Anthropic-同一天降价/README.md) | 2026-09-23 | ✅ 已发布 | 🔥 |
 | [🍲 OpenAI 24 天解开 100 道数学难题：我从中偷到一个提效开关](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-09-22-OpenAI-24-天解开-100-道数学难题：/README.md) | 2026-09-22 | ✅ 已发布 | 🔥 |
 | [🍲 我项目里那份没人读的 AGENTS.md，今晚终于有人读了](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-09-21-我项目里那份没人读的-AGENTS.md，今晚终/README.md) | 2026-09-21 | ✅ 已发布 | 🔥 |
