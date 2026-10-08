@@ -10,6 +10,7 @@
 
 | 菜品 | 上架时间 | 状态 | 热度 |
 |------|---------|------|------|
+| [🍲 「AGI 已至」？喊得最响的那个，正在卖芯片](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-09-07-「AGI-已至」？喊得最响的那个，正在卖芯片/README.md) | 2026-09-07 | ✅ 已发布 | 🔥 |
 | [🍲 我让 AI 帮我选技术，1.6 万次实测撕开了真相](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-09-04-我让-AI-帮我选技术，1.6-万次实测撕开了真/README.md) | 2026-09-04 | ✅ 已发布 | 🔥 |
 | [🍲 AI 写代码从来不迷路——却让我们的代码悄悄腐烂](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-09-03-AI-写代码从来不迷路——却让我们的代码悄悄腐烂/README.md) | 2026-09-03 | ✅ 已发布 | 🔥 |
 | [🍲 AI 写代码总跑偏？可能它缺一套「专业技能包」](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-09-02-AI-写代码总跑偏？可能它缺一套「专业技能包」/README.md) | 2026-09-02 | ✅ 已发布 | 🔥 |
