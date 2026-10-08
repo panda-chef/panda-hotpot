@@ -30,8 +30,22 @@ MENU_END = "<!-- MENU:END -->"
 DEFAULT_STATUS = "✅ 已发布"
 DEFAULT_HEAT = "🔥"
 REPO_URL = "https://github.com/panda-chef/panda-hotpot"
+SITE_URL = "https://panda-chef.github.io/panda-hotpot/"
 
 TAGLINE = "每道菜 = 一个 AI 热点：科普文章 + 可运行代码 + 资料清单"
+
+# 中国红圆底 + 米色熊猫脸（内联 SVG，避免额外图标文件）
+FAVICON = (
+    "data:image/svg+xml,"
+    "%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E"
+    "%3Ccircle cx='16' cy='16' r='16' fill='%23d7263d'/%3E"
+    "%3Ccircle cx='10.5' cy='10' r='3.4' fill='%230d1117'/%3E"
+    "%3Ccircle cx='21.5' cy='10' r='3.4' fill='%230d1117'/%3E"
+    "%3Ccircle cx='16' cy='19' r='8' fill='%23f5e6c8'/%3E"
+    "%3Ccircle cx='13' cy='18' r='1.7' fill='%23241a17'/%3E"
+    "%3Ccircle cx='19' cy='18' r='1.7' fill='%23241a17'/%3E"
+    "%3C/svg%3E"
+)
 
 
 class Dish:
@@ -151,6 +165,12 @@ def render_site(dishes: list[Dish]) -> str:
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>熊猫厨子的 AI 火锅店 · Panda Hotpot</title>
 <meta name="description" content="{html.escape(TAGLINE)}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="熊猫厨子的 AI 火锅店 · Panda Hotpot">
+<meta property="og:description" content="{html.escape(TAGLINE)}">
+<meta property="og:url" content="{SITE_URL}">
+<meta name="theme-color" content="#0d1117">
+<link rel="icon" href="{FAVICON}">
 <style>
   :root {{
     --bg: #0d1117; --panel: #161b22; --line: #30363d;
