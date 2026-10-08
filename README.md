@@ -10,6 +10,7 @@
 
 | 菜品 | 上架时间 | 状态 | 热度 |
 |------|---------|------|------|
+| [🍲 你的AI编程Agent，有健忘症](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-06-你的AI编程Agent，有健忘症/README.md) | 2026-08-06 | ✅ 已发布 | 🔥 |
 | [🍲 Claude Code 用了一年，一个新工具在 SWE-bench 上把它超了](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-05-Claude-Code-用了一年，一个新工具在-/README.md) | 2026-08-05 | ✅ 已发布 | 🔥 |
 | [🍲 Claude Code 今天更新了一个功能，终于解决了我的精神内耗](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-04-Claude-Code-今天更新了一个功能，终于/README.md) | 2026-08-04 | ✅ 已发布 | 🔥 |
 | [🍲 给 AI Agent 上把锁——你的 API Key 正在裸奔](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-03-给-AI-Agent-上把锁——你的-API-K/README.md) | 2026-08-03 | ✅ 已发布 | 🔥 |
