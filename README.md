@@ -10,6 +10,7 @@
 
 | 菜品 | 上架时间 | 状态 | 热度 |
 |------|---------|------|------|
+| [🍲 我项目里那份没人读的 AGENTS.md，今晚终于有人读了](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-09-21-我项目里那份没人读的-AGENTS.md，今晚终/README.md) | 2026-09-21 | ✅ 已发布 | 🔥 |
 | [🍲 国安部披露 AI「地下论坛」，我连夜补了三道锁](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-09-17-国安部披露-AI「地下论坛」，我连夜补了三道锁/README.md) | 2026-09-17 | ✅ 已发布 | 🔥 |
 | [🍲 所谓「AI 失控」，我读完原始报告发现是有人忘了关网](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-09-16-所谓「AI-失控」，我读完原始报告发现是有人忘了/README.md) | 2026-09-16 | ✅ 已发布 | 🔥 |
 | [🍲 巨头集体喊刹车的那一周，我把一半的活交给了 1/40 价格的模型](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-09-15-巨头集体喊刹车的那一周，我把一半的活交给了-1-/README.md) | 2026-09-15 | ✅ 已发布 | 🔥 |
