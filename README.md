@@ -10,6 +10,7 @@
 
 | 菜品 | 上架时间 | 状态 | 热度 |
 |------|---------|------|------|
+| [🍲 Claude Code 就是不读 AGENTS.md，逼我每天维护两份文件](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-20-Claude-Code-就是不读-AGENTS./README.md) | 2026-08-20 | ✅ 已发布 | 🔥 |
 | [🍲 7.8MB 的编码 Agent，Vercel 出品，我连夜装上了](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-19-7.8MB-的编码-Agent，Vercel-出/README.md) | 2026-08-19 | ✅ 已发布 | 🔥 |
 | [🍲 AI 写的死代码，一条命令全揪出来](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-18-AI-写的死代码，一条命令全揪出来/README.md) | 2026-08-18 | ✅ 已发布 | 🔥 |
 | [🍲 你的AI编程Agent，有健忘症](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-06-你的AI编程Agent，有健忘症/README.md) | 2026-08-06 | ✅ 已发布 | 🔥 |
