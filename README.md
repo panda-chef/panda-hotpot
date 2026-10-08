@@ -20,7 +20,7 @@
 | [🍲 巨头集体喊刹车的那一周，我把一半的活交给了 1/40 价格的模型](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-09-15-巨头集体喊刹车的那一周，我把一半的活交给了-1-/README.md) | 2026-09-15 | ✅ 已发布 | 🔥 |
 | [🍲 OpenAI 喊话：你给 AI 写的说明书，正在拖累它](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-09-14-OpenAI-喊话：你给-AI-写的说明书，正在/README.md) | 2026-09-14 | ✅ 已发布 | 🔥 |
 | [🍲 造 Claude 的人辞职了，我翻完他们自己的报告才看懂](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-09-11-造-Claude-的人辞职了，我翻完他们自己的报/README.md) | 2026-09-11 | ✅ 已发布 | 🔥 |
-| [🍲 我让最强 AI 自己当老板，35 小时换来 7.5 万行废代码](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-09-10-我让最强-AI-自己当老板，35-小时换来-7./README.md) | 2026-09-10 | ✅ 已发布 | 🔥 |
+| [🍲 我让最强 AI 自己当老板，35 小时换来 7.5 万行废代码](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-09-10-我让最强-AI-自己当老板，35-小时换来-7/README.md) | 2026-09-10 | ✅ 已发布 | 🔥 |
 | [🍲 算力不够，就偷别人的思考？美国正式点名「AI 蒸馏」](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-09-09-算力不够，就偷别人的思考？美国正式点名「AI-蒸/README.md) | 2026-09-09 | ✅ 已发布 | 🔥 |
 | [🍲 「AGI 已至」？喊得最响的那个，正在卖芯片](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-09-07-「AGI-已至」？喊得最响的那个，正在卖芯片/README.md) | 2026-09-07 | ✅ 已发布 | 🔥 |
 | [🍲 我让 AI 帮我选技术，1.6 万次实测撕开了真相](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-09-04-我让-AI-帮我选技术，1.6-万次实测撕开了真/README.md) | 2026-09-04 | ✅ 已发布 | 🔥 |
@@ -33,7 +33,7 @@
 | [🍲 同一个模型，本地跑为什么总更笨](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-23-同一个模型，本地跑为什么总更笨/README.md) | 2026-08-23 | ✅ 已发布 | 🔥 |
 | [🍲 一台旧服务器 + 20 美元，一个人搭了个 AI 软件工厂](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-22-一台旧服务器-+-20-美元，一个人搭了个-AI/README.md) | 2026-08-22 | ✅ 已发布 | 🔥 |
 | [🍲 写 prompt 写到吐？Huzzah 想让你只用伪代码写代码](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-21-写-prompt-写到吐？Huzzah-想让你只/README.md) | 2026-08-21 | ✅ 已发布 | 🔥 |
-| [🍲 Claude Code 就是不读 AGENTS.md，逼我每天维护两份文件](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-20-Claude-Code-就是不读-AGENTS./README.md) | 2026-08-20 | ✅ 已发布 | 🔥 |
+| [🍲 Claude Code 就是不读 AGENTS.md，逼我每天维护两份文件](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-20-Claude-Code-就是不读-AGENTS/README.md) | 2026-08-20 | ✅ 已发布 | 🔥 |
 | [🍲 7.8MB 的编码 Agent，Vercel 出品，我连夜装上了](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-19-7.8MB-的编码-Agent，Vercel-出/README.md) | 2026-08-19 | ✅ 已发布 | 🔥 |
 | [🍲 AI 写的死代码，一条命令全揪出来](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-18-AI-写的死代码，一条命令全揪出来/README.md) | 2026-08-18 | ✅ 已发布 | 🔥 |
 | [🍲 你的AI编程Agent，有健忘症](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-06-你的AI编程Agent，有健忘症/README.md) | 2026-08-06 | ✅ 已发布 | 🔥 |
