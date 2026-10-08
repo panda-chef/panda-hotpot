@@ -22,8 +22,8 @@ jobs:
       - name: 单元测试（scripts/ 与菜品配套代码）
         run: python -m unittest discover -s tests -v
 
-      - name: 菜品结构与相对链接校验
+      # 菜单校验刻意不做「与生成器逐字节相同」：发布流水线（sync_to_hotpot.py）
+      # 用绝对链接插行、也不维护计数行，这里只要求「每道菜都有行、没有失效行」。
+      # 需要严格模式的本地场景：python scripts/check_dishes.py --strict-menu
+      - name: 菜品结构、相对链接与菜单覆盖校验
         run: python scripts/check_dishes.py
-
-      - name: 主菜单与站点是否最新
-        run: python scripts/build_menu.py --check

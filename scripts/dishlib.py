@@ -46,6 +46,14 @@ SHORT_DATE_RE = re.compile(r"\d{4}-\d{2}(?:-\d{2})?")
 
 _LINK_RE = re.compile(r"\[[^\]]*\]\(([^)\s]+)(?:\s+\"[^\"]*\")?\)")
 
+# 菜单表格行：| [标题](链接) | 日期 | 状态 | 热度 |
+MENU_ROW_RE = re.compile(
+    r"^\|\s*\[(?P<title>[^\]]+)\]\((?P<target>[^)\s]+)\)\s*\|"
+    r"\s*(?P<date>[^|]*?)\s*\|\s*(?P<status>[^|]*?)\s*\|\s*(?P<heat>[^|]*?)\s*\|\s*$",
+    re.M,
+)
+SUMMARY_RE = re.compile(r"共\s*\*\*(\d+)\*\*\s*道菜")
+
 
 def read_text(path: Path) -> str:
     """按 UTF-8（容忍 BOM）读取文本，读不到时抛出原始异常。"""
@@ -96,6 +104,50 @@ def resolve_link(base_dir: Path, link: str) -> Path:
     """把相对链接解析为磁盘路径（去掉 ?query / #fragment 并做 URL 解码）。"""
     path = urlparse(link).path
     return (base_dir / unquote(path)).resolve()
+
+
+def menu_block(text: str) -> str | None:
+    """取出 README 两个标记之间的菜单区块；缺标记时返回 None。"""
+    start = text.find(MENU_START)
+    end = text.find(MENU_END)
+    if start == -1 or end == -1 or end < start:
+        return None
+    return text[start + len(MENU_START) : end]
+
+
+def parse_menu_rows(block: str) -> list[dict]:
+    """解析菜单表格的行（表头与分隔行自动跳过）。"""
+    rows = []
+    for match in MENU_ROW_RE.finditer(block):
+        rows.append(
+            {
+                "title": match.group("title").strip(),
+                "target": match.group("target").strip(),
+                "date": match.group("date").strip(),
+                "status": match.group("status").strip(),
+                "heat": match.group("heat").strip(),
+            }
+        )
+    return rows
+
+
+def slug_from_target(target: str) -> str | None:
+    """从菜单行的链接里取出菜品目录名。
+
+    兼容三种写法（发布流水线与本地生成器写法不同，两种都必须认）：
+
+    * 相对：``dishes/<slug>/README.md``（本仓库生成器输出）
+    * 旧式：``./dishes/<slug>/``
+    * 绝对：``https://github.com/.../blob/main/dishes/<slug>/README.md``（发布流水线输出）
+    """
+    match = re.search(r"dishes/([^/]+)/", unquote(target))
+    return match.group(1) if match else None
+
+
+def menu_summary_count(block: str) -> int | None:
+    """读取菜单区块里「共 N 道菜」的 N，没有该行时返回 None。"""
+    match = SUMMARY_RE.search(block)
+    return int(match.group(1)) if match else None
 
 
 @dataclass(frozen=True)

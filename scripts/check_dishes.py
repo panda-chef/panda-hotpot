@@ -9,7 +9,7 @@
 4. 元信息块含日期（`发布`/`菜品编号`）与`状态`
 5. README 内指向仓库文件的相对链接都能解析到真实文件
 6. README 里提到的 `code/` 目录真实存在且非空
-7. README 主菜单与 dishes/ 内容一致（无漂移）
+7. 主菜单覆盖每一道菜、没有指向已删目录的行（`--strict-menu` 时额外要求与生成器输出逐字节一致）
 
 退出码：0 表示无错误（允许有警告），1 表示存在错误。
 """
@@ -81,17 +81,65 @@ def check_dish_directory(directory: Path) -> list[Finding]:
     return findings
 
 
-def check_menu(dishes: list[dishlib.Dish]) -> list[Finding]:
-    """校验 README 主菜单是否与 dishes/ 同步。"""
-    readme_text = dishlib.read_text(dishlib.README)
+def check_menu(dishes: list[dishlib.Dish], readme_text: str) -> list[Finding]:
+    """校验主菜单覆盖了每一道菜，且没指向不存在的目录。
+
+    这里刻意**不使用**「与生成器输出逐字节相同」的标准：公众号发布流水线
+    （``sync_to_hotpot.py``）会自己往表头下插行、使用绝对 URL、也不维护
+    「共 N 道菜」计数行。只要覆盖完整、没有失效行就放行，链接风格差异只提示。
+    """
+    block = dishlib.menu_block(readme_text)
+    if block is None:
+        return [
+            Finding(ERROR, "README", f"缺少 {dishlib.MENU_START} / {dishlib.MENU_END} 标记")
+        ]
+
+    rows = dishlib.parse_menu_rows(block)
+    findings: list[Finding] = []
+    seen: dict[str, int] = {}
+    for row in rows:
+        slug = dishlib.slug_from_target(row["target"])
+        if slug is None:
+            findings.append(
+                Finding(WARNING, "README", f"菜单行解析不出菜品目录：{row['title']}")
+            )
+            continue
+        seen[slug] = seen.get(slug, 0) + 1
+
+    existing = {dish.slug for dish in dishes}
+    for slug, count in seen.items():
+        if slug not in existing:
+            findings.append(Finding(ERROR, slug, f"菜单里有 {count} 行指向不存在的菜品目录"))
+        elif count > 1:
+            findings.append(Finding(ERROR, slug, f"菜单里有 {count} 行重复"))
+    for dish in dishes:
+        if dish.slug not in seen:
+            findings.append(Finding(ERROR, dish.slug, "菜单里缺少这道菜"))
+
+    summary = dishlib.menu_summary_count(block)
+    if summary is not None and summary != len(dishes):
+        findings.append(
+            Finding(WARNING, "README", f"「共 N 道菜」写的是 {summary}，实际 {len(dishes)} 道")
+        )
+    dates = [row["date"] for row in rows]
+    if dates != sorted(dates, reverse=True):
+        findings.append(Finding(WARNING, "README", "菜单行不是按日期倒序（build_menu.py 会重排）"))
+    styles = {"absolute" if row["target"].startswith("http") else "relative" for row in rows}
+    if len(styles) > 1:
+        findings.append(
+            Finding(WARNING, "README", "菜单混用绝对链接与相对链接（build_menu.py 会统一为相对）")
+        )
+    return findings
+
+
+def check_menu_strict(dishes: list[dishlib.Dish], readme_text: str) -> list[Finding]:
+    """额外要求菜单与生成器输出完全一致（本地手工维护菜单时用，见 --strict-menu）。"""
     try:
         expected = sitegen.apply_menu(dishes, readme_text)
-    except SystemExit as exc:  # 缺少 MENU 标记
+    except SystemExit as exc:
         return [Finding(ERROR, "README", str(exc))]
     if expected != readme_text:
-        return [
-            Finding(ERROR, "README", "主菜单与 dishes/ 不一致，请运行 build_menu.py 更新")
-        ]
+        return [Finding(ERROR, "README", "主菜单与生成器输出不一致，请运行 build_menu.py 更新")]
     return []
 
 
@@ -102,6 +150,11 @@ def collect(findings: list[Finding], new: list[Finding]) -> None:
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="校验 dishes/ 结构与链接")
     parser.add_argument("--quiet", action="store_true", help="只输出错误与汇总")
+    parser.add_argument(
+        "--strict-menu",
+        action="store_true",
+        help="额外要求菜单与 build_menu.py 的输出逐字节一致（本地手工维护菜单时用）",
+    )
     args = parser.parse_args(argv)
 
     if not dishlib.DISHES_DIR.is_dir():
@@ -111,11 +164,14 @@ def main(argv: list[str] | None = None) -> int:
     directories = sorted(d for d in dishlib.DISHES_DIR.iterdir() if d.is_dir())
     dishes = [dishlib.load_dish(d) for d in dishlib.iter_dish_dirs()]
     dishes.sort(key=lambda d: d.sort_key, reverse=True)
+    readme_text = dishlib.read_text(dishlib.README)
 
     findings: list[Finding] = []
     for directory in directories:
         collect(findings, check_dish_directory(directory))
-    collect(findings, check_menu(dishes))
+    collect(findings, check_menu(dishes, readme_text))
+    if args.strict_menu:
+        collect(findings, check_menu_strict(dishes, readme_text))
 
     errors = [f for f in findings if f.level == ERROR]
     warnings = [f for f in findings if f.level == WARNING]

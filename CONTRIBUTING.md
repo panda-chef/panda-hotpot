@@ -41,9 +41,14 @@ dishes/
 3. 跑一遍工具，确保主菜单和网站是最新的：
 
    ```bash
-   python scripts/build_menu.py --site docs/index.html
-   python scripts/build_menu.py --check   # 校验链接与菜单是否漂移
+   python scripts/build_menu.py --site docs/index.html   # 重排/补全菜单 + 重新生成站点
+   python scripts/check_dishes.py                        # 结构、元信息、相对链接、菜单覆盖
+   python -m unittest discover -s tests                  # 单元测试（CI 也会跑）
    ```
+
+   > 公众号发布流水线会自己往菜单里插行（绝对链接、不维护「共 N 道菜」计数行），
+   > 因此 CI 只校验「每道菜都有行、没有失效行」；链接风格差异只作提示。
+   > 本地想把菜单彻底规整成相对链接并按日期重排，跑一次 `build_menu.py` 即可。
 
 4. 提交信息沿用仓库风格，带 emoji 前缀：
 

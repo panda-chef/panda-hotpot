@@ -86,9 +86,19 @@ panda-hotpot/
 # 更新主菜单（并同步生成站点首页）
 python scripts/build_menu.py --site docs/index.html
 
-# 只校验：菜品目录是否齐全、菜单是否与 dishes/ 漂移
-python scripts/build_menu.py --check
+# 校验：目录规范、元信息、相对链接、菜单覆盖（CI 跑的就是这条）
+python scripts/check_dishes.py
+
+# 新建一道菜的脚手架
+python scripts/new_dish.py --title "标题" --with-code --update-menu
+
+# 单元测试
+python -m unittest discover -s tests
 ```
+
+> 公众号发布流水线（同步脚本）会自己往菜单里插行，用的是绝对链接、也不维护
+> 「共 N 道菜」计数行，所以 CI 只校验「每道菜都有行、没有失效行」。本地想把菜单
+> 彻底规整成相对链接并按日期重排，跑一次 `build_menu.py` 即可。
 
 菜品 README 头部的元信息块（`发布` / `状态` / `热度`）会被工具读取，用来生成菜单和站点。
 

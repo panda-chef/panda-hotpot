@@ -125,6 +125,47 @@ class LoadDishesTests(unittest.TestCase):
         self.assertEqual(dishlib.load_dishes(Path("不存在的目录")), [])
 
 
+class MenuRowParsingTests(unittest.TestCase):
+    BLOCK = """
+| 菜品 | 上架时间 | 状态 | 热度 |
+|------|---------|------|------|
+| [🍲 新菜](dishes/2026-10-08-新菜/README.md) | 2026-10-08 | ✅ 已发布 | 🔥🔥 |
+| [🍲 旧菜](./dishes/2026-08-旧菜/) | 2026-08 | 📝 制作中 | 🔥 |
+
+> 🍳 共 **2** 道菜，持续上架中…
+"""
+
+    def test_parse_rows_skips_header_and_separator(self):
+        rows = dishlib.parse_menu_rows(self.BLOCK)
+        self.assertEqual(len(rows), 2)
+        self.assertEqual(rows[0]["title"], "🍲 新菜")
+        self.assertEqual(rows[0]["date"], "2026-10-08")
+        self.assertEqual(rows[0]["heat"], "🔥🔥")
+        self.assertEqual(rows[1]["status"], "📝 制作中")
+
+    def test_summary_count(self):
+        self.assertEqual(dishlib.menu_summary_count(self.BLOCK), 2)
+        self.assertIsNone(dishlib.menu_summary_count("没有计数行"))
+
+    def test_slug_from_target_all_styles(self):
+        self.assertEqual(
+            dishlib.slug_from_target("dishes/2026-10-08-%E6%96%B0%E8%8F%9C/README.md"),
+            "2026-10-08-新菜",
+        )
+        self.assertEqual(dishlib.slug_from_target("./dishes/2026-08-旧菜/"), "2026-08-旧菜")
+        self.assertEqual(
+            dishlib.slug_from_target(
+                "https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-10-08-新菜/README.md"
+            ),
+            "2026-10-08-新菜",
+        )
+        self.assertIsNone(dishlib.slug_from_target("https://example.com/x.md"))
+
+    def test_menu_block_returns_none_without_markers(self):
+        self.assertIsNone(dishlib.menu_block("# 没有标记"))
+        self.assertIsNotNone(dishlib.menu_block(f"{dishlib.MENU_START}\nx\n{dishlib.MENU_END}"))
+
+
 class ParseSlugTests(unittest.TestCase):
     def test_full_date_and_short_date(self):
         self.assertEqual(dishlib.parse_slug("2026-10-08-主题"), ("2026-10-08", "主题"))
