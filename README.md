@@ -10,6 +10,7 @@
 
 | 菜品 | 上架时间 | 状态 | 热度 |
 |------|---------|------|------|
+| [🍲 OpenAI 喊话：你给 AI 写的说明书，正在拖累它](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-09-14-OpenAI-喊话：你给-AI-写的说明书，正在/README.md) | 2026-09-14 | ✅ 已发布 | 🔥 |
 | [🍲 造 Claude 的人辞职了，我翻完他们自己的报告才看懂](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-09-11-造-Claude-的人辞职了，我翻完他们自己的报/README.md) | 2026-09-11 | ✅ 已发布 | 🔥 |
 | [🍲 我让最强 AI 自己当老板，35 小时换来 7.5 万行废代码](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-09-10-我让最强-AI-自己当老板，35-小时换来-7./README.md) | 2026-09-10 | ✅ 已发布 | 🔥 |
 | [🍲 算力不够，就偷别人的思考？美国正式点名「AI 蒸馏」](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-09-09-算力不够，就偷别人的思考？美国正式点名「AI-蒸/README.md) | 2026-09-09 | ✅ 已发布 | 🔥 |
