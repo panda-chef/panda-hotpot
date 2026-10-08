@@ -10,6 +10,7 @@
 
 | 菜品 | 上架时间 | 状态 | 热度 |
 |------|---------|------|------|
+| [🍲 所谓「AI 失控」，我读完原始报告发现是有人忘了关网](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-09-16-所谓「AI-失控」，我读完原始报告发现是有人忘了/README.md) | 2026-09-16 | ✅ 已发布 | 🔥 |
 | [🍲 巨头集体喊刹车的那一周，我把一半的活交给了 1/40 价格的模型](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-09-15-巨头集体喊刹车的那一周，我把一半的活交给了-1-/README.md) | 2026-09-15 | ✅ 已发布 | 🔥 |
 | [🍲 OpenAI 喊话：你给 AI 写的说明书，正在拖累它](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-09-14-OpenAI-喊话：你给-AI-写的说明书，正在/README.md) | 2026-09-14 | ✅ 已发布 | 🔥 |
 | [🍲 造 Claude 的人辞职了，我翻完他们自己的报告才看懂](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-09-11-造-Claude-的人辞职了，我翻完他们自己的报/README.md) | 2026-09-11 | ✅ 已发布 | 🔥 |
