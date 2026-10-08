@@ -10,6 +10,7 @@
 
 | 菜品 | 上架时间 | 状态 | 热度 |
 |------|---------|------|------|
+| [🍲 花 266 美元雇四个 AI，把我被锁死的平板救了回来](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-24-花-266-美元雇四个-AI，把我被锁死的平板救/README.md) | 2026-08-24 | ✅ 已发布 | 🔥 |
 | [🍲 同一个模型，本地跑为什么总更笨](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-23-同一个模型，本地跑为什么总更笨/README.md) | 2026-08-23 | ✅ 已发布 | 🔥 |
 | [🍲 一台旧服务器 + 20 美元，一个人搭了个 AI 软件工厂](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-22-一台旧服务器-+-20-美元，一个人搭了个-AI/README.md) | 2026-08-22 | ✅ 已发布 | 🔥 |
 | [🍲 写 prompt 写到吐？Huzzah 想让你只用伪代码写代码](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-21-写-prompt-写到吐？Huzzah-想让你只/README.md) | 2026-08-21 | ✅ 已发布 | 🔥 |
