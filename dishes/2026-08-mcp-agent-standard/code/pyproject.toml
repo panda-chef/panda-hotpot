@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "panda-mcp-demo"
+version = "0.1.0"
+description = "熊猫厨子的 AI 火锅店 · MCP 30 分钟上手 配套可运行代码"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+keywords = ["mcp", "model-context-protocol", "agent", "tutorial", "json-rpc"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Topic :: Software Development :: Libraries",
+]
+dependencies = []
+
+[project.optional-dependencies]
+sdk = ["mcp>=1.0"]
+
+[project.urls]
+Repository = "https://github.com/panda-chef/panda-hotpot"
+Dish = "https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-mcp-agent-standard/README.md"
+
+[project.scripts]
+# 零依赖协议演示：手写 JSON-RPC，理解 MCP 底层
+panda-mcp-min = "server_min:main"
+# 官方 SDK 版（需要 pip install "panda-mcp-demo[sdk]"）
+panda-mcp = "server:main"
+
+[tool.hatch.build.targets.wheel]
+py-modules = ["server", "server_min"]

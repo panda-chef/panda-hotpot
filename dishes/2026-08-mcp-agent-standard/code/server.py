@@ -37,5 +37,10 @@ def get_weather(city: str) -> dict:
     return {"city": city, "weather": "晴", "temp_c": 28}
 
 
-if __name__ == "__main__":
+def main() -> None:
+    """入口：以 stdio 模式启动 MCP Server（供 `panda-mcp` 命令与直接运行调用）。"""
     mcp.run()
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

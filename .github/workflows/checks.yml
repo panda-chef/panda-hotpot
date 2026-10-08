@@ -1,0 +1,29 @@
+name: Checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 单元测试（scripts/ 与菜品配套代码）
+        run: python -m unittest discover -s tests -v
+
+      - name: 菜品结构与相对链接校验
+        run: python scripts/check_dishes.py
+
+      - name: 主菜单与站点是否最新
+        run: python scripts/build_menu.py --check
