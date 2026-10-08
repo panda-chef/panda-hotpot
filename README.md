@@ -10,6 +10,7 @@
 
 | 菜品 | 上架时间 | 状态 | 热度 |
 |------|---------|------|------|
+| [🍲 一台旧服务器 + 20 美元，一个人搭了个 AI 软件工厂](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-22-一台旧服务器-+-20-美元，一个人搭了个-AI/README.md) | 2026-08-22 | ✅ 已发布 | 🔥 |
 | [🍲 写 prompt 写到吐？Huzzah 想让你只用伪代码写代码](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-21-写-prompt-写到吐？Huzzah-想让你只/README.md) | 2026-08-21 | ✅ 已发布 | 🔥 |
 | [🍲 Claude Code 就是不读 AGENTS.md，逼我每天维护两份文件](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-20-Claude-Code-就是不读-AGENTS./README.md) | 2026-08-20 | ✅ 已发布 | 🔥 |
 | [🍲 7.8MB 的编码 Agent，Vercel 出品，我连夜装上了](https://github.com/panda-chef/panda-hotpot/blob/main/dishes/2026-08-19-7.8MB-的编码-Agent，Vercel-出/README.md) | 2026-08-19 | ✅ 已发布 | 🔥 |
