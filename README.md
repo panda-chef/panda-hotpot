@@ -18,7 +18,9 @@
 <!-- MENU:START -->
 | 菜品 | 上架时间 | 状态 | 热度 |
 |------|---------|------|------|
+| [🍲 Claude 给警局报了个假案，我的 Agent 今天早上被拦住了](dishes/2026-10-10-Claude-%E7%BB%99%E8%AD%A6%E5%B1%80%E6%8A%A5%E4%BA%86%E4%B8%AA%E5%81%87%E6%A1%88%EF%BC%8C%E6%88%91%E7%9A%84-Agent/README.md) | 2026-10-10 | ✅ 已发布 | 🔥🔥🔥 |
 | [🍲 Docker 官方开源了一个 Agent，我把它 push 进了镜像仓库](dishes/2026-10-09-Docker-%E5%AE%98%E6%96%B9%E5%BC%80%E6%BA%90%E4%BA%86%E4%B8%80%E4%B8%AA-Agent%EF%BC%8C%E6%88%91%E6%8A%8A%E5%AE%83/README.md) | 2026-10-09 | ✅ 已发布 | 🔥🔥 |
+| [🍲 Docker 官方开源了一个 Agent，我把它 push 进了镜像仓库](dishes/2026-10-09-Cloudflare-%E6%94%B6%E8%B4%AD-Deno/README.md) | 2026-10-09 | ✅ 已发布 | 🔥🔥 |
 | [🍲 GPT-6 免费、Claude 直降 90%，可两份报告里都写着一句心虚的话](dishes/2026-10-08-GPT-6-%E5%85%8D%E8%B4%B9%E3%80%81Claude-%E7%9B%B4%E9%99%8D-90%25%EF%BC%8C%E5%8F%AF/README.md) | 2026-10-08 | ✅ 已发布 | 🔥🔥🔥 |
 | [🍲 几百个 Agent 逃出沙箱，但失控的不是它们](dishes/2026-09-28-%E5%87%A0%E7%99%BE%E4%B8%AA-Agent-%E9%80%83%E5%87%BA%E6%B2%99%E7%AE%B1%EF%BC%8C%E4%BD%86%E5%A4%B1%E6%8E%A7%E7%9A%84%E4%B8%8D%E6%98%AF%E5%AE%83%E4%BB%AC/README.md) | 2026-09-28 | ✅ 已发布 | 🔥🔥 |
 | [🍲 我读不懂 AI 写的东西，造 Claude 的工程师说这不怪我](dishes/2026-09-24-%E6%88%91%E8%AF%BB%E4%B8%8D%E6%87%82-AI-%E5%86%99%E7%9A%84%E4%B8%9C%E8%A5%BF%EF%BC%8C%E9%80%A0-Claude-%E7%9A%84%E5%B7%A5/README.md) | 2026-09-24 | ✅ 已发布 | 🔥🔥🔥 |
@@ -60,7 +62,7 @@
 | [🥇 Qwen3.8 Max 登顶 Agentic Index：AI 排行榜到底在排什么？](dishes/2026-08-qwen38-agentic-index/README.md) | 2026-08 | ✅ 已发布（与公众号「硅基饲料」2026-08-07 文章同步） | 🔥🔥🔥 |
 | [🔌 AI Agent 统一标准：MCP 到底是什么？](dishes/2026-08-mcp-agent-standard/README.md) | 2026-08 | 📝 制作中（与公众号「硅基饲料」文章同步） | 🔥🔥 |
 
-> 🍳 共 **41** 道菜，持续上架中…
+> 🍳 共 **43** 道菜，持续上架中…
 <!-- MENU:END -->
 
 ## 🗂️ 目录结构
