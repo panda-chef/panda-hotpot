@@ -8,7 +8,7 @@
 
 ## 📝 摘要
 
-昨晚十一点，我让 AI 在 hse-server 里改一个 Mapper。
+昨晚十一点，我让 AI 在公司一个 Java 项目里改一个 Mapper。
 
 它张口就写了个 `var ids = ...`。
 

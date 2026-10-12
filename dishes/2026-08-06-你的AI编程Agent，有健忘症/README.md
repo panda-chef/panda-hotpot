@@ -14,7 +14,7 @@
 
 但我开了7个Claude Code session。
 
-不是bug难。是每开一个session，我都要重新解释一遍："这个项目叫hse-server，模块结构是这样的，认证逻辑在shhyit-security包里，你上次改的那个拦截器在这里..."
+不是bug难。是每开一个session，我都要重新解释一遍："这个项目是公司内部系统，模块结构是这样的，认证逻辑在 security 包里，你上次改的那个拦截器在这里..."
 
 每次session的前10分钟，都在做同一件事——让agent重新认识代码库。
 
