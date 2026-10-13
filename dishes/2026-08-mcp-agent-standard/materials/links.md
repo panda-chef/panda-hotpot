@@ -15,7 +15,7 @@
 ## 生态
 
 - MCP 服务器仓库合集（官方）：https://github.com/modelcontextprotocol/servers
-- 云效 MCP：https://devops.aliyun.com/ （alibabacloud-devops-mcp-server，197 个工具）
+- 企业级 DevOps 平台 MCP（alibabacloud-devops-mcp-server，197 个工具）
 - codegraph（代码索引 MCP）：https://github.com/staticinthecode/codegraph
 
 ## 背景阅读
