@@ -18,6 +18,20 @@
 <!-- MENU:START -->
 | 菜品 | 上架时间 | 状态 | 热度 |
 |------|---------|------|------|
+| [🍲 Agent 跑崩的那条轨迹，才是最值钱的数据](dishes/2026-11-03-Agent-%E8%B7%91%E5%B4%A9%E7%9A%84%E9%82%A3%E6%9D%A1%E8%BD%A8%E8%BF%B9%EF%BC%8C%E6%89%8D%E6%98%AF%E6%9C%80%E5%80%BC%E9%92%B1%E7%9A%84%E6%95%B0%E6%8D%AE/README.md) | 2026-11-03 | ✅ 已发布 | 🔥🔥 |
+| [🍲 存 9B，算 14.6B：小模型开始「循环加班」了](dishes/2026-11-02-%E5%AD%98-9B%EF%BC%8C%E7%AE%97-14.6B%EF%BC%9A%E5%B0%8F%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%A7%8B%E3%80%8C%E5%BE%AA%E7%8E%AF%E5%8A%A0%E7%8F%AD%E3%80%8D/README.md) | 2026-11-02 | ✅ 已发布 | 🔥🔥 |
+| [🍲 没人 @ 它，AI 自己提了个 PR](dishes/2026-11-01-%E6%B2%A1%E4%BA%BA-%40-%E5%AE%83%EF%BC%8CAI-%E8%87%AA%E5%B7%B1%E6%8F%90%E4%BA%86%E4%B8%AA-PR/README.md) | 2026-11-01 | ✅ 已发布 | 🔥🔥 |
+| [🍲 一万亿参数白送了，可你想拿它做生意，得先写封信](dishes/2026-10-31-%E4%B8%80%E4%B8%87%E4%BA%BF%E5%8F%82%E6%95%B0%E7%99%BD%E9%80%81%E4%BA%86%EF%BC%8C%E5%8F%AF%E4%BD%A0%E6%83%B3%E6%8B%BF%E5%AE%83%E5%81%9A%E7%94%9F%E6%84%8F%EF%BC%8C%E5%BE%97%E5%85%88%E5%86%99%E5%B0%81%E4%BF%A1/README.md) | 2026-10-31 | ✅ 已发布 | 🔥🔥 |
+| [🍲 AI 不再一个字一个字写了，一个 350 亿参数的开源模型把等待砍掉一半](dishes/2026-10-30-AI-%E4%B8%8D%E5%86%8D%E4%B8%80%E4%B8%AA%E5%AD%97%E4%B8%80%E4%B8%AA%E5%AD%97%E5%86%99%E4%BA%86%EF%BC%8C%E4%B8%80%E4%B8%AA-350-%E4%BA%BF%E5%8F%82%E6%95%B0/README.md) | 2026-10-30 | ✅ 已发布 | 🔥🔥 |
+| [🍲 六成题目藏起来了，AI 跑分第一次没法刷](dishes/2026-10-29-%E5%85%AD%E6%88%90%E9%A2%98%E7%9B%AE%E8%97%8F%E8%B5%B7%E6%9D%A5%E4%BA%86%EF%BC%8CAI-%E8%B7%91%E5%88%86%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%B2%A1%E6%B3%95%E5%88%B7/README.md) | 2026-10-29 | ✅ 已发布 | 🔥🔥 |
+| [🍲 同一天两个开源：一个 2.8 万亿我跑不动，一个 1.7B 今晚就能跑](dishes/2026-10-28-%E5%90%8C%E4%B8%80%E5%A4%A9%E4%B8%A4%E4%B8%AA%E5%BC%80%E6%BA%90%EF%BC%9A%E4%B8%80%E4%B8%AA-2.8-%E4%B8%87%E4%BA%BF%E6%88%91%E8%B7%91%E4%B8%8D%E5%8A%A8%EF%BC%8C%E4%B8%80%E4%B8%AA/README.md) | 2026-10-28 | ✅ 已发布 | 🔥🔥 |
+| [🍲 拔了网线，AI 改用 CPU 缓存传话](dishes/2026-10-27-%E6%8B%94%E4%BA%86%E7%BD%91%E7%BA%BF%EF%BC%8CAI-%E6%94%B9%E7%94%A8-CPU-%E7%BC%93%E5%AD%98%E4%BC%A0%E8%AF%9D/README.md) | 2026-10-27 | ✅ 已发布 | 🔥🔥 |
+| [🍲 AI 干到一半开始忘事，这周三家各自动手了](dishes/2026-10-26-AI-%E5%B9%B2%E5%88%B0%E4%B8%80%E5%8D%8A%E5%BC%80%E5%A7%8B%E5%BF%98%E4%BA%8B%EF%BC%8C%E8%BF%99%E5%91%A8%E4%B8%89%E5%AE%B6%E5%90%84%E8%87%AA%E5%8A%A8%E6%89%8B%E4%BA%86/README.md) | 2026-10-26 | ✅ 已发布 | 🔥🔥 |
+| [🍲 16,893 次会话实测：AI 挑工具不看品牌，看你的 README](dishes/2026-10-25-16%2C893-%E6%AC%A1%E4%BC%9A%E8%AF%9D%E5%AE%9E%E6%B5%8B%EF%BC%9AAI-%E6%8C%91%E5%B7%A5%E5%85%B7%E4%B8%8D%E7%9C%8B%E5%93%81%E7%89%8C%EF%BC%8C/README.md) | 2026-10-25 | ✅ 已发布 | 🔥🔥 |
+| [🍲 Kimi K3.1 Pro 追到 Opus 身后一个点，价格砍掉一半](dishes/2026-10-24-Kimi-K3.1-Pro-%E8%BF%BD%E5%88%B0-Opus-%E8%BA%AB%E5%90%8E/README.md) | 2026-10-24 | ✅ 已发布 | 🔥🔥 |
+| [🍲 同一天，四家公司把 Agent 的四层地基交了出去](dishes/2026-10-23-%E5%90%8C%E4%B8%80%E5%A4%A9%EF%BC%8C%E5%9B%9B%E5%AE%B6%E5%85%AC%E5%8F%B8%E6%8A%8A-Agent-%E7%9A%84%E5%9B%9B%E5%B1%82%E5%9C%B0%E5%9F%BA%E4%BA%A4%E4%BA%86%E5%87%BA/README.md) | 2026-10-23 | ✅ 已发布 | 🔥🔥 |
+| [🍲 24GB：英伟达给本地 Agent 划的那条线](dishes/2026-10-22-24GB%EF%BC%9A%E8%8B%B1%E4%BC%9F%E8%BE%BE%E7%BB%99%E6%9C%AC%E5%9C%B0-Agent-%E5%88%92%E7%9A%84%E9%82%A3%E6%9D%A1%E7%BA%BF/README.md) | 2026-10-22 | ✅ 已发布 | 🔥🔥🔥 |
+| [🍲 8160 亿参数开源了，Meta 是拿两台 Mac 跑起来的](dishes/2026-10-21-8160-%E4%BA%BF%E5%8F%82%E6%95%B0%E5%BC%80%E6%BA%90%E4%BA%86%EF%BC%8CMeta-%E6%98%AF%E6%8B%BF%E4%B8%A4%E5%8F%B0-Ma/README.md) | 2026-10-21 | ✅ 已发布 | 🔥🔥🔥 |
 | [🍲 一个不肯说自己是谁的模型，跑了 200 万亿 token](dishes/2026-10-20-%E4%B8%80%E4%B8%AA%E4%B8%8D%E8%82%AF%E8%AF%B4%E8%87%AA%E5%B7%B1%E6%98%AF%E8%B0%81%E7%9A%84%E6%A8%A1%E5%9E%8B%EF%BC%8C%E8%B7%91%E4%BA%86-200-%E4%B8%87%E4%BA%BF-t/README.md) | 2026-10-20 | ✅ 已发布 | 🔥🔥 |
 | [🍲 关掉思考之后，DeepSeek 20 秒写出了 654 行](dishes/2026-10-19-%E5%85%B3%E6%8E%89%E6%80%9D%E8%80%83%E4%B9%8B%E5%90%8E%EF%BC%8CDeepSeek-20-%E7%A7%92%E5%86%99%E5%87%BA%E4%BA%86/README.md) | 2026-10-19 | ✅ 已发布 | 🔥🔥🔥 |
 | [🍲 说好了只是小更新，最便宜那档却追平了旗舰](dishes/2026-10-18-%E8%AF%B4%E5%A5%BD%E4%BA%86%E5%8F%AA%E6%98%AF%E5%B0%8F%E6%9B%B4%E6%96%B0%EF%BC%8C%E6%9C%80%E4%BE%BF%E5%AE%9C%E9%82%A3%E6%A1%A3%E5%8D%B4%E8%BF%BD%E5%B9%B3%E4%BA%86%E6%97%97%E8%88%B0/README.md) | 2026-10-18 | ✅ 已发布 | 🔥🔥 |
@@ -70,7 +84,7 @@
 | [🥇 Qwen3.8 Max 登顶 Agentic Index：AI 排行榜到底在排什么？](dishes/2026-08-qwen38-agentic-index/README.md) | 2026-08 | ✅ 已发布（与公众号「硅基饲料」2026-08-07 文章同步） | 🔥🔥🔥 |
 | [🔌 AI Agent 统一标准：MCP 到底是什么？](dishes/2026-08-mcp-agent-standard/README.md) | 2026-08 | 📝 制作中（与公众号「硅基饲料」文章同步） | 🔥🔥 |
 
-> 🍳 共 **51** 道菜，持续上架中…
+> 🍳 共 **65** 道菜，持续上架中…
 <!-- MENU:END -->
 
 ## 🗂️ 目录结构
