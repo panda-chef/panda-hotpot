@@ -18,6 +18,7 @@
 <!-- MENU:START -->
 | 菜品 | 上架时间 | 状态 | 热度 |
 |------|---------|------|------|
+| [🍲 腾讯第一次把「最强开源」说出口，顺手把瞎编率砍了三分之二](dishes/2026-11-05-%E8%85%BE%E8%AE%AF%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%8A%8A%E3%80%8C%E6%9C%80%E5%BC%BA%E5%BC%80%E6%BA%90%E3%80%8D%E8%AF%B4%E5%87%BA%E5%8F%A3%EF%BC%8C%E9%A1%BA%E6%89%8B%E6%8A%8A%E7%9E%8E%E7%BC%96%E7%8E%87%E7%A0%8D%E4%BA%86/README.md) | 2026-11-05 | ✅ 已发布 | 🔥🔥🔥 |
 | [🍲 Google 把调试台交给对手的 AI，跑不起来的不算改完](dishes/2026-11-04-Google-%E6%8A%8A%E8%B0%83%E8%AF%95%E5%8F%B0%E4%BA%A4%E7%BB%99%E5%AF%B9%E6%89%8B%E7%9A%84-AI%EF%BC%8C%E8%B7%91%E4%B8%8D%E8%B5%B7%E6%9D%A5/README.md) | 2026-11-04 | ✅ 已发布 | 🔥🔥🔥 |
 | [🍲 Agent 跑崩的那条轨迹，才是最值钱的数据](dishes/2026-11-03-Agent-%E8%B7%91%E5%B4%A9%E7%9A%84%E9%82%A3%E6%9D%A1%E8%BD%A8%E8%BF%B9%EF%BC%8C%E6%89%8D%E6%98%AF%E6%9C%80%E5%80%BC%E9%92%B1%E7%9A%84%E6%95%B0%E6%8D%AE/README.md) | 2026-11-03 | ✅ 已发布 | 🔥🔥 |
 | [🍲 存 9B，算 14.6B：小模型开始「循环加班」了](dishes/2026-11-02-%E5%AD%98-9B%EF%BC%8C%E7%AE%97-14.6B%EF%BC%9A%E5%B0%8F%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%A7%8B%E3%80%8C%E5%BE%AA%E7%8E%AF%E5%8A%A0%E7%8F%AD%E3%80%8D/README.md) | 2026-11-02 | ✅ 已发布 | 🔥🔥 |
@@ -85,7 +86,7 @@
 | [🥇 Qwen3.8 Max 登顶 Agentic Index：AI 排行榜到底在排什么？](dishes/2026-08-qwen38-agentic-index/README.md) | 2026-08 | ✅ 已发布（与公众号「硅基饲料」2026-08-07 文章同步） | 🔥🔥🔥 |
 | [🔌 AI Agent 统一标准：MCP 到底是什么？](dishes/2026-08-mcp-agent-standard/README.md) | 2026-08 | 📝 制作中（与公众号「硅基饲料」文章同步） | 🔥🔥 |
 
-> 🍳 共 **66** 道菜，持续上架中…
+> 🍳 共 **67** 道菜，持续上架中…
 <!-- MENU:END -->
 
 ## 🗂️ 目录结构
