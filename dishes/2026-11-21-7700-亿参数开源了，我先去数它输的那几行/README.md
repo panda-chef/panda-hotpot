@@ -16,9 +16,7 @@
 
 ## 📎 参考资料
 
-- 官方开源仓库：[Tencent-Hunyuan/Hy4](https://github.com/Tencent-Hunyuan/Hy4)（含 vLLM / SGLang 部署配方、跑分表、Known Limitations）
-- 官方开源公告：[Hy4 正式开源，发布 System Card](https://mp.weixin.qq.com/s/M0TIIvCzizkLw7_A3MCSjA)
-- 第三方成本与评测对比：[Hy4 vs Qwen4-Max](https://www.orcarouter.ai/zh-CN/blog/tencent-hy4-vs-qwen-4-max)（数据源 Artificial Analysis v5.0.1，2026-11-20）
+- 暂无（原文见公众号）
 
 ## 🔗 关联
 
